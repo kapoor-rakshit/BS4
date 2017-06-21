@@ -17,6 +17,8 @@ print(soup.title.string)               # title's content  : Python Programming T
                                        # .string does not work with tag containing child tags, shows None 
 print(soup.title.text)                 # .text works with tags containing child tags also
 
+soup.title.string.replace_with("New title by kapoor-rakshit")   # replace the string
+
 print(soup.title.parent.name)          # work on parent of a tag , here is <head>
 
 print(soup.find_all(class_="modal"))   # list of data within tags having class="modal"
