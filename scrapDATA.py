@@ -2,7 +2,22 @@ import bs4 as bs
 import urllib.request
 
 hindiwebsites = ["https://khabar.ndtv.com/"]
-# "https://aajtak.intoday.in/", "https://hindi.moneycontrol.com/"
+
+# HINDI SITES
+# "https://khabar.ndtv.com/", "https://aajtak.intoday.in/", "https://hindi.moneycontrol.com/",
+# "http://hindispot.com", "https://hindividya.com", "http://www.motivationalstoriesinhindi.in",
+# "https://yourstory.com/hindi", "http://www.hinditechy.com/", "https://www.gyanipandit.com/", "https://www.onlymyhealth.com/hindi.html",
+# "http://hindi.webdunia.com/", "https://www.achhikhabar.com/", "http://nuktachini.debashish.com/", "https://www.hindimehelp.com/",
+# "https://www.inditales.com/hindi/", "http://desitraveler.com/flight-to-remember-hindi-blog-post/", "https://www.bharatdarshan.co.nz/literature-collection/2/51/hindi-story.html"
+
+# ENGLISH SITES
+# NEWS : https://www.cnbctv18.com/ , https://economictimes.indiatimes.com/ , https://www.livemint.com/ , https://www.bloomberg.com/asia , https://in.mashable.com/
+# PROGRAMMING : https://www.geeksforgeeks.org/
+# BLOGS : https://www.thefashionspot.com/ , https://abrokenbackpack.com/ , http://theblogabroad.com/
+# STORIES : https://www.advance-africa.com/English-Moral-Stories.html
+# EDUCATION : http://www.nitj.ac.in/  , http://online.gndu.ac.in/
+# COOKING : https://www.vegrecipesofindia.com/ , https://www.rakskitchen.net/ , http://www.manjulaskitchen.com/ , https://www.tastyappetite.net/2013/05/biryani-recipes-biryani-recipe.html , https://www.yummytummyaarthi.com/ , https://www.veganricha.com/ , https://www.ruchiskitchen.com/
+# HEALTH : https://www.nih.gov/ , https://www.webmd.com/ , https://www.mayoclinic.org/
 
 hindiwebsitesAtags = []
 
